@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <table border="4" cellpadding="2" cellspacing="1">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Track</td>
+                <td>
+                    <select name="track">
+                        <option value="front">Front-End</option>
+                        <option value="back">Back-End</option>
+                        <option value="full">Full Stack</option>
+                        <option value="uiux">UI/UX</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Favorites</td>
+                <td>
+                    <input type="checkbox" name="fav" value="football"> Football
+                    <input type="checkbox" name="fav" value="basketball"> Basketball
+                    <br>
+                    <input type="checkbox" name="fav" value="games"> Games
+                    <br>
+                    <input type="checkbox" name="fav" value="reading"> Reading
+                    <input type="checkbox" name="fav" value="swimming"> Swimming
+                    <br>
+                    <input type="checkbox" name="fav" value="travel"> Travel
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <textarea name="description" rows="5" cols="20" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="file" name="cv">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
