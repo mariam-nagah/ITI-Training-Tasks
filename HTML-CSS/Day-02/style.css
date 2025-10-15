@@ -1,0 +1,36 @@
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+h2{
+    text-align: center;
+}
+
+#unique{
+    font-size: 20px;
+    color: #ff6347;
+}
+.bad {
+  color: rgb(89, 0, 255);
+  font-size: 16px;
+  padding: 20px 10px;
+  margin: 10px;
+  border-top:5px solid Tomato;
+  border-right: 9px double brown;
+  border-bottom: 2px dotted black;
+  border-left:15px dashed gray ;
+  font-family:Impact;
+}
+div{
+    background-color: yellow;
+    border-style: dotted;
+    border-color:blue;
+    border-width: 5px 10px 4px 15px;
+    margin: 10px;
+}
+h4{
+ width: 300px;
+  border: 15px solid green;
+  padding: 20px;
+  margin: auto;
+}
