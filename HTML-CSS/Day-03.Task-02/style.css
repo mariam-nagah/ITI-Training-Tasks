@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* Navbar */
+.navbar {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 85%;
+  margin: auto;
+  padding: 15px 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+.hero {
+  background: url('hero.png') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-bottom: 40px;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.hero-content button {
+  padding: 10px 25px;
+  background: white;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.service-boxes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  min-width: 200px;
+  height: 150px;
+  background: #ead3c7;
+}
+
+.portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.item {
+  height: 180px;
+  background: #ccc;
+}
